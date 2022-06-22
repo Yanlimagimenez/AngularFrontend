@@ -1,0 +1,40 @@
+<h1>Seja Bem-Vindo!</h1>
+
+<h4 class="text-danger">{{ anuncio }}</h4>
+
+<div class="row">
+  <div class="col">
+    <app-card-produto
+      [foto] = "foto"
+      [nomeProduto] = "nomeProduto"
+      [promocao] = "promocao"
+      [idProduto] = "idProduto"
+      [dataValidade] = "dataValidade"
+      [precoProduto] = "precoProduto"
+    ></app-card-produto>
+  </div>
+
+  <div class="col">
+    <app-card-produto
+      foto = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png"
+      nomeProduto = "Curso de Alemão"
+      [promocao] = "false"
+      [idProduto] = "15"
+      dataValidade = "2021-12-31"
+      [precoProduto] = "3333.33"
+    ></app-card-produto>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card-body">
+
+</div>
